@@ -12,6 +12,8 @@
 		2B848E301BC45A51000612D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B848E2E1BC45A51000612D0 /* Main.storyboard */; };
 		2B848E321BC45A51000612D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B848E311BC45A51000612D0 /* Assets.xcassets */; };
 		2B848E351BC45A51000612D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B848E331BC45A51000612D0 /* LaunchScreen.storyboard */; };
+		2B848E3D1BC46139000612D0 /* RosieRiveter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B848E3C1BC46139000612D0 /* RosieRiveter.png */; settings = {ASSET_TAGS = (); }; };
+		2B848E3F1BC4663D000612D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B848E3E1BC4663D000612D0 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2B848E311BC45A51000612D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B848E341BC45A51000612D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B848E361BC45A51000612D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B848E3C1BC46139000612D0 /* RosieRiveter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RosieRiveter.png; path = "../../You Matter/You Matter/RosieRiveter.png"; sourceTree = "<group>"; };
+		2B848E3E1BC4663D000612D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B848E3F1BC4663D000612D0 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		2B848E1E1BC45A51000612D0 = {
 			isa = PBXGroup;
 			children = (
+				2B848E3E1BC4663D000612D0 /* CoreLocation.framework */,
 				2B848E291BC45A51000612D0 /* YouMatter */,
 				2B848E281BC45A51000612D0 /* Products */,
 			);
@@ -56,6 +62,7 @@
 			children = (
 				2B848E2A1BC45A51000612D0 /* AppDelegate.swift */,
 				2B848E2C1BC45A51000612D0 /* ViewController.swift */,
+				2B848E3C1BC46139000612D0 /* RosieRiveter.png */,
 				2B848E2E1BC45A51000612D0 /* Main.storyboard */,
 				2B848E311BC45A51000612D0 /* Assets.xcassets */,
 				2B848E331BC45A51000612D0 /* LaunchScreen.storyboard */,
@@ -123,6 +130,7 @@
 			files = (
 				2B848E351BC45A51000612D0 /* LaunchScreen.storyboard in Resources */,
 				2B848E321BC45A51000612D0 /* Assets.xcassets in Resources */,
+				2B848E3D1BC46139000612D0 /* RosieRiveter.png in Resources */,
 				2B848E301BC45A51000612D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
